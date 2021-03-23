@@ -1,0 +1,129 @@
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.column-1 {
+    background: rgb(210, 210, 210);
+}
+
+.column-2 {    
+    width: 100%;
+    height: 100vh;
+}
+
+.text-screen {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    background: #000;
+    color: #fff;
+}
+
+
+.text-item {
+    padding: 1em 2em;
+}
+
+.text-item ul li {
+    margin: 0 1.25em;
+    padding-left: 0em;
+}
+
+.text-item p {
+    font-weight: 300;
+}
+
+.text-item b {
+    font-weight: 900;
+}
+
+.custom-hr {
+    border: 0;
+    border-top: 1px dashed rgb(43, 43, 43);
+}
+
+.input-field {
+    display: none;
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+    width: 100%;
+    background: rgb(19, 19, 19);
+    color: #fff;
+    border: 0 solid #000;
+    border-top: 2px solid rgb(61, 61, 61);
+}
+
+.grid {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.displayGrid {
+    display: none;
+}
+.displayMap {
+    display: none;
+}
+
+.mapRegion {
+    width: 33.3333vh;
+    height: 33.3333vh;
+    outline: solid 2px rgba(0, 0, 0, .1);
+    outline-offset: -2px;
+}
+
+.mapRegionCurrentLocation {
+    background: rgb(248, 244, 189);
+}
+
+.grid div {
+    width: 2vh;
+    height: 2vh;
+}
+
+.character, .red {
+    background-color: red;
+}
+
+.monster, .green {
+    background-color: green;
+}
+
+.npc, .blue {
+    background-color: blue;
+}
+
+.square {
+    width: 2vh;
+    height: 2vh;
+}
+
+td {
+  border-top: 1px solid rgb(32, 32, 32);
+  padding: .5em 0;
+}
+
+.wall, .grey {
+    background-color: grey;
+}
+
+.subtitle {
+    font-size: 1em;
+}
+
