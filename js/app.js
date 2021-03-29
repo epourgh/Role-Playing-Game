@@ -73,26 +73,26 @@ let page = [
         1067,1068,1069,1070,1071,1072,1073,1075,1076,1077,1078,1079,1080,1081
     ],
     [
-494,  543,  544,  545,  592,  593,  595,  596,  643,  644,
-   645,  693,  695,  743,  744,  745,  793,  795,  843,  844,
-   845,  893,  895,  943,  944,  945,  993,  995, 1043, 1044,
-  1045, 1093, 1095, 1143, 1144, 1145, 1192, 1193, 1195, 1196,
-  1242, 1243, 1244, 1245, 1246, 1292, 1294, 1296, 1342, 1343,
-  1344, 1345, 1346, 1392, 1394, 1396, 1441, 1442, 1443, 1444,
-  1445, 1446, 1447, 1491, 1492, 1494, 1496, 1497, 1541, 1542,
-  1543, 1544, 1545, 1546, 1547, 1591, 1593, 1595, 1597, 1640,
-  1641, 1642, 1643, 1645, 1646, 1647, 1648, 1690, 1691, 1692,
-  1696, 1697, 1698, 1740, 1741, 1742, 1746, 1747, 1748, 1789,
-1790, 1791, 1797, 1798, 1799, 1839, 1840, 1841,
-  1842, 1843, 1844, 1845, 1846, 1847, 1848, 1849, 1888,
-  1889, 1890, 1891, 1892, 1893, 1894, 1895, 1896, 1897,
-  1898, 1899, 1938, 1939, 1940, 1941, 1947, 1948,
-  1949, 1987, 1988, 1989, 1990, 1998, 1999, 2037, 2038, 2039, 2049, 2087, 2088,
-  2089, 2099, 2136, 2137, 2138, 2186, 2187, 2188, 2235, 2236,
-  2237, 2238, 2284, 2285, 2286,
-  2287, 2288
+        494,  543,  544,  545,  592,  593,  595,  596,  643,  644,
+        645,  693,  695,  743,  744,  745,  793,  795,  843,  844,
+        845,  893,  895,  943,  944,  945,  993,  995, 1043, 1044,
+        1045, 1093, 1095, 1143, 1144, 1145, 1192, 1193, 1195, 1196,
+        1242, 1243, 1244, 1245, 1246, 1292, 1294, 1296, 1342, 1343,
+        1344, 1345, 1346, 1392, 1394, 1396, 1441, 1442, 1443, 1444,
+        1445, 1446, 1447, 1491, 1492, 1494, 1496, 1497, 1541, 1542,
+        1543, 1544, 1545, 1546, 1547, 1591, 1593, 1595, 1597, 1640,
+        1641, 1642, 1643, 1645, 1646, 1647, 1648, 1690, 1691, 1692,
+        1696, 1697, 1698, 1740, 1741, 1742, 1746, 1747, 1748, 1789,
+        1790, 1791, 1797, 1798, 1799, 1839, 1840, 1841,
+        1842, 1843, 1844, 1845, 1846, 1847, 1848, 1849, 1888,
+        1889, 1890, 1891, 1892, 1893, 1894, 1895, 1896, 1897,
+        1898, 1899, 1938, 1939, 1940, 1941, 1947, 1948,
+        1949, 1987, 1988, 1989, 1990, 1998, 1999, 2037, 2038, 2039, 2049, 2087, 2088,
+        2089, 2099, 2136, 2137, 2138, 2186, 2187, 2188, 2235, 2236,
+        2237, 2238, 2284, 2285, 2286,
+        2287, 2288
     ],
-    [1900, 1950, 2000,2001,2050, 2051, 2100, 2101, 2200, 2201, 2202, 2150, 2151,2152,2250, 2251, 2252, 2253,2300, 2301, 2302, 2303, 2304],
+    [ 1900, 1950, 2000,2001,2050, 2051, 2100, 2101, 2200, 2201, 2202, 2150, 2151,2152,2250, 2251, 2252, 2253,2300, 2301, 2302, 2303, 2304 ],
     [
         154, 203, 204, 205, 252, 253, 254, 255, 256, 301, 302, 303, 304, 305, 306, 307, 352, 402, 452, 356, 406, 456, 455, 453,
         612, 661, 662, 663, 710, 711, 712, 713, 714, 759, 760, 761, 762, 763, 764, 765, 810, 811, 812, 813, 860, 910, 911, 814, 864, 863, 862, 861, 914, 913,
@@ -138,108 +138,124 @@ const indoorTemplate = [
 ]
 
 // 454, 912,
-let indoorSpace = [
-    {
-        1074: [
-            ... indoorTemplate
-        ]
-    },
-    {},
-    {},
-    {
-        454: [
-            154, 203, 204, 205, 252, 253, 255, 256, 301, 302, 306, 307, 352, 402, 452, 356, 406, 456, 455, 453,
-            612, 661, 662, 663, 710, 711, 712, 713, 714, 759, 760, 761, 762, 763, 764, 765, 810, 811, 812, 813, 860, 910, 911, 814, 864, 863, 862, 861, 914, 913,
-            268, 317, 318, 319, 366, 367, 368, 369, 370, 415, 416, 417, 418, 419, 420, 421, 466, 516, 566, 567,  470, 520, 570, 569,
-            1300,1301,1302,1303,1304,1305,1306,1307,1308,1309,1310,1311,1312,1313,1314,1315,1316,1317,1318,1319,1320,1321,1322,1323,1324,1325,1326,
-            1276,1226,1176,1126,1076,1026,976,926,876,826,776,726,676,626,576,526,476,426,376,326,276,226,176,126,76,26,
-            517, 518, 519, 467, 468, 469
-        ],
-        912: [
-            ... indoorTemplate
-        ],
-        568: [
-            154, 203, 204, 205, 252, 253, 254, 255, 256, 301, 302, 303, 304, 305, 306, 307, 352, 402, 452, 356, 406, 456, 455, 453,
-            612, 661, 662, 663, 710, 711, 712, 713, 714, 759, 760, 761, 762, 763, 764, 765, 810, 811, 812, 813, 860, 910, 911, 814, 864, 863, 862, 861, 914, 913,
-            268, 317, 318, 319, 366, 367, 369, 370, 415, 416, 420, 421, 466, 516, 566, 567,  470, 520, 570, 569,
-            1300,1301,1302,1303,1304,1305,1306,1307,1308,1309,1310,1311,1312,1313,1314,1315,1316,1317,1318,1319,1320,1321,1322,1323,1324,1325,1326,
-            1276,1226,1176,1126,1076,1026,976,926,876,826,776,726,676,626,576,526,476,426,376,326,276,226,176,126,76,26,
-            353, 354, 355, 403, 404, 405
-        ]
-    },
-    {},
-    {},
-    {},
-    {},
-    {}
-];
-
-let entrance = [
-    [
-        1074
+let indoor = {
+    space: [
+        {
+            1074: [
+                ... indoorTemplate
+            ]
+        },
+        {},
+        {},
+        {
+            454: [
+                154, 203, 204, 205, 252, 253, 255, 256, 301, 302, 306, 307, 352, 402, 452, 356, 406, 456, 455, 453,
+                612, 661, 662, 663, 710, 711, 712, 713, 714, 759, 760, 761, 762, 763, 764, 765, 810, 811, 812, 813, 860, 910, 911, 814, 864, 863, 862, 861, 914, 913,
+                268, 317, 318, 319, 366, 367, 368, 369, 370, 415, 416, 417, 418, 419, 420, 421, 466, 516, 566, 567,  470, 520, 570, 569,
+                1300,1301,1302,1303,1304,1305,1306,1307,1308,1309,1310,1311,1312,1313,1314,1315,1316,1317,1318,1319,1320,1321,1322,1323,1324,1325,1326,
+                1276,1226,1176,1126,1076,1026,976,926,876,826,776,726,676,626,576,526,476,426,376,326,276,226,176,126,76,26,
+                517, 518, 519, 467, 468, 469
+            ],
+            912: [
+                ... indoorTemplate
+            ],
+            568: [
+                154, 203, 204, 205, 252, 253, 254, 255, 256, 301, 302, 303, 304, 305, 306, 307, 352, 402, 452, 356, 406, 456, 455, 453,
+                612, 661, 662, 663, 710, 711, 712, 713, 714, 759, 760, 761, 762, 763, 764, 765, 810, 811, 812, 813, 860, 910, 911, 814, 864, 863, 862, 861, 914, 913,
+                268, 317, 318, 319, 366, 367, 369, 370, 415, 416, 420, 421, 466, 516, 566, 567,  470, 520, 570, 569,
+                1300,1301,1302,1303,1304,1305,1306,1307,1308,1309,1310,1311,1312,1313,1314,1315,1316,1317,1318,1319,1320,1321,1322,1323,1324,1325,1326,
+                1276,1226,1176,1126,1076,1026,976,926,876,826,776,726,676,626,576,526,476,426,376,326,276,226,176,126,76,26,
+                353, 354, 355, 403, 404, 405
+            ]
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
     ],
-    [],
-    [],
-    [
-        454, 568, 912
+    showOverworld: [
+        {
+            1074: false
+        },
+        {},
+        {},
+        {
+            454: true,
+            912: false,
+            568: true
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
     ],
-    [],
-    [],
-    [],
-    [],
-    []
-]
-
-let entry = [
-    {
-        1074: [ 2224 ]
-    },
-    {},
-    {},
-    {
-        454: [
-            404
+    entrance: [
+        [
+            1074
         ],
-        568: [
-            518
+        [],
+        [],
+        [
+            454, 568, 912
         ],
-        912: [
-            2224
-        ]
-    },
-    {},
-    {},
-    {},
-    {},
-    {}
-]
-
-let exit = [
-    {
-        1074: [
-            2223, 2224, 2225
-        ]
-    },
-    {},
-    {},
-    {
-        454: [
-            404
-        ],
-        568: [
-            518
-        ],
-        912: [
-            2223, 2224, 2225
-        ]
-        
-    },
-    {},
-    {},
-    {},
-    {},
-    {}
-]
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    entry: [
+        {
+            1074: [ 2224 ]
+        },
+        {},
+        {},
+        {
+            454: [
+                404
+            ],
+            568: [
+                518
+            ],
+            912: [
+                2224
+            ]
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    exit: [
+        {
+            1074: [
+                2223, 2224, 2225
+            ]
+        },
+        {},
+        {},
+        {
+            454: [
+                404
+            ],
+            568: [
+                518
+            ],
+            912: [
+                2223, 2224, 2225
+            ]
+            
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+    ]
+};
 
 let items = {
     'health potion': { name: 'health potion', hp: 15, equipable: false, consumable: 'hp' },
@@ -277,10 +293,10 @@ const rmObjRef = (object) => JSON.parse(JSON.stringify(object));
 let interactibleObjects = [
     {   
         monsters: {
-            99: { id: 99, name: '', level: baseLvl[1].level, exp: baseLvl[1].exp, hp: 1, mp: 1, attack: 1, magic: 1, dialogue: ['menacing monster ahead', ''], inventory: [] }
+            420: { id: 99, name: '', level: baseLvl[1].level, exp: baseLvl[1].exp, hp: 1, mp: 1, attack: 1, magic: 1, dialogue: ['menacing monster ahead', ''], inventory: [] }
         }, 
         npc: {
-            100: { id: 100, name: '', level: baseLvl[1].level, exp: baseLvl[1].exp, hp: 1, mp: 1, attack: 1, magic: 1, dialogue: ['npc says hi', ''], inventory: [] }
+            430: { id: 100, name: '', level: baseLvl[1].level, exp: baseLvl[1].exp, hp: 1, mp: 1, attack: 1, magic: 1, dialogue: ['npc says hi', ''], inventory: [] }
         }
     },
     {monsters: {}, npc: {}},
@@ -498,14 +514,8 @@ let pageSetUp = (prev, index) => {
 
 }
 
-
-let enterBattle = () => {
-
-    cachedProtagonist = protagonist;
-    protagonist = 657;
+let removeInteractibleObjects = () => {
     let index = pageIndex()
-    isBattle = true;
-
     if (interactibleObjects[index].monsters) {
         for (const monsterIndex in interactibleObjects[index].monsters) {
             squares[monsterIndex].classList.remove('monster');
@@ -518,6 +528,31 @@ let enterBattle = () => {
             squares[npcIndex].classList.remove('npc');
         }
     }
+}
+
+let addInteractibleObjects = () => {
+    let index = pageIndex()
+    if (interactibleObjects[index].monsters) {
+        for (const monsterIndex in interactibleObjects[index].monsters) {
+            squares[monsterIndex].classList.add('monster');
+        }
+    }
+
+    if (interactibleObjects[index].npc) {
+        for (const npcIndex in interactibleObjects[index].npc) {
+            squares[npcIndex].classList.add('npc');
+        }
+    }
+}
+
+let enterBattle = () => {
+
+    cachedProtagonist = protagonist;
+    protagonist = 657;
+    let index = pageIndex()
+    isBattle = true;
+
+    removeInteractibleObjects();
 
     for (const point of battleMode.protagonist) {
         squares[point].classList.add('character');
@@ -533,17 +568,7 @@ let exitBattle = () => {
     let index = pageIndex()
     isBattle = false;
 
-    if (interactibleObjects[index].monsters) {
-        for (const monsterIndex in interactibleObjects[index].monsters) {
-            squares[monsterIndex].classList.add('monster');
-        }
-    }
-
-    if (interactibleObjects[index].npc) {
-        for (const npcIndex in interactibleObjects[index].npc) {
-            squares[npcIndex].classList.add('npc');
-        }
-    }
+    addInteractibleObjects();
 
     for (const point of battleMode.protagonist) {
         squares[point].classList.remove('character');
@@ -557,8 +582,8 @@ let exitBattle = () => {
 pageSetUp(pageIndex(), pageIndex())
 
 
-for (let i = 0; i < indoorSpace[3][454].length; i++) {
-  squares[indoorSpace[3][454][i]].classList.add('wall');
+for (let i = 0; i < indoor.space[3][454].length; i++) {
+  squares[indoor.space[3][454][i]].classList.add('wall');
 }
 
 function moveProtagonist(e) {
@@ -650,6 +675,7 @@ function moveProtagonist(e) {
             if (isExit()) {
                 paintWalls.leave();
                 protagonist = setEntrance;
+                addInteractibleObjects();
                 paintWalls.add();
                 setEntrance = 0;
                 break;
@@ -911,7 +937,7 @@ const isNumber = (inputValue) => {
 }
 
 const isEntrance = () => {
-    const notEmpty = entrance[pageIndex()].filter(place => place === protagonist)
+    const notEmpty = indoor.entrance[pageIndex()].filter(place => place === protagonist)
     return notEmpty.length > 0;
 }
 
@@ -919,14 +945,18 @@ const isExit = () => {
     if (setEntrance == 0) {
         return 0;
     }
-    const notEmpty = exit[pageIndex()][setEntrance].filter(place => place === protagonist)
+    const notEmpty = indoor.exit[pageIndex()][setEntrance].filter(place => place === protagonist)
     return notEmpty.length > 0;
 }
 
 const changeToEntrance = () => {
-    setEntrance = entrance[pageIndex()].filter(place => place === protagonist)[0];
-    protagonist = entry[pageIndex()][setEntrance][0];
-    
+    setEntrance = indoor.entrance[pageIndex()].filter(place => place === protagonist)[0];
+    protagonist = indoor.entry[pageIndex()][setEntrance][0];
+
+    if (indoor.showOverworld[pageIndex()][setEntrance] === false) {
+        removeInteractibleObjects();
+    }
+
     paintWalls.remove();
     paintWalls.entrance()
 }
@@ -994,13 +1024,13 @@ const paintWalls = {
         }
     },
     entrance: () => {
-        for (let i = 0; i < indoorSpace[pageIndex()][setEntrance].length; i++) {
-            squares[indoorSpace[pageIndex()][setEntrance][i]].classList.add('wall');
+        for (let i = 0; i < indoor.space[pageIndex()][setEntrance].length; i++) {
+            squares[indoor.space[pageIndex()][setEntrance][i]].classList.add('wall');
         }
     },
     leave: () => {
-        for (let i = 0; i < indoorSpace[pageIndex()][setEntrance].length; i++) {
-            squares[indoorSpace[pageIndex()][setEntrance][i]].classList.remove('wall');
+        for (let i = 0; i < indoor.space[pageIndex()][setEntrance].length; i++) {
+            squares[indoor.space[pageIndex()][setEntrance][i]].classList.remove('wall');
         }
     }
 }
